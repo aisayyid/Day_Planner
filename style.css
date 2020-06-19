@@ -8,7 +8,7 @@ textarea{
   background: transparent;
   border-style: solid;
   border-top-width: thin;
-  border-bottom-width; thin;
+  border-bottom-width: thin;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
@@ -82,7 +82,3 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
-@media (max-width: 575.98px) {
- margin: auto;
-
- }
