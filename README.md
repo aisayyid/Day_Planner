@@ -11,9 +11,15 @@ Creation of a day planner using jQuery.  The planner should be able to save what
 
 - Lines 17-22: Created a click event that saves the values put into the text area into local storage.
 
+![](Images./Day_Planner_img2.png)
+
 - Lines 6-14: Created get methods for the local storage.
 
+![](Images./Day_Planner_img3.png)
+
 - Lines 27-44: Created the timeSensor Function.  This function is responsible for the color indications of whether something needs to be done in the day or not.  It does so by using if statements to compare the time input in the left columns to the clock grabbed from Moment.js, which would be the current time.
+
+![](Images./Day_Planner_img4.png)
 
 - Line 46: timeSensor function is called.
 
