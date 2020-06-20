@@ -3,6 +3,15 @@ $("#currentDay").text(moment().format('ddd MMM Do, YYYY'));
 moment().format("YYYY-MM-DD HH:mm");
 
 //Text written in text area needs to be saved once the save button is clicked.
+$(".saveBtn").click(function(event){
+event.preventDefault();
+var savedText = $("textarea").val();
+
+
+
+
+
+})
 
 //The text needs to be saved to the local cache, so that when the user exits the page and comes back, the info is still there.
 
