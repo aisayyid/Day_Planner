@@ -37,7 +37,7 @@ Creation of a day planner using jQuery.  The planner should be able to save what
 
 - Column 3: add saveBtn and btn-secondary classes to make responsive buttons.
 
-![](Images./Day_Planner_img4.png)
+![](Images./Day_Planner_GIF.gif)
 
 
   https://aisayyid.github.io/Day_Planner/
