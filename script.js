@@ -28,19 +28,19 @@ function timeSensor() {
     var currentTime = moment().hours()
     $(".row").each(function () {
         const rowTime = parseInt($(this).attr("id"));
-// If statements comparing time parsed from row ids to universal clock, to indicate through clors whether the time has passed, is current, or is yet to come.
+        // If statements comparing time parsed from row ids to universal clock, to indicate through clors whether the time has passed, is current, or is yet to come.
         if (rowTime < currentTime) {
             $(this).addClass("past");
         }
 
-    else if (rowTime === currentTime) {
-        $(this).addClass("present");
-    }
-    else {
-        $(this).addClass("future");
-    };
+        else if (rowTime === currentTime) {
+            $(this).addClass("present");
+        }
+        else {
+            $(this).addClass("future");
+        };
 
-})
+    })
 };
 //Calls time sensor function.
 timeSensor();

@@ -27,9 +27,9 @@ Creation of a day planner using jQuery.  The planner should be able to save what
 
 - Column 2 (Textarea): swapped from divs to match the semantic given in the CSS as well as giving the user a place to input info.  Also created a class of textStay which plays a role in grabbing the user input and saving it to the local cache.
 
-Column 3: add saveBtn and btn-secondary classes to make responsive buttons.
+- Column 3: add saveBtn and btn-secondary classes to make responsive buttons.
 
 
-https://aisayyid.github.io/Day_Planner/
+  https://aisayyid.github.io/Day_Planner/
 
 
