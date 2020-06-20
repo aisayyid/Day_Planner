@@ -19,9 +19,9 @@ Creation of a day planner using jQuery.  The planner should be able to save what
 
 - Lines 27-44: Created the timeSensor Function.  This function is responsible for the color indications of whether something needs to be done in the day or not.  It does so by using if statements to compare the time input in the left columns to the clock grabbed from Moment.js, which would be the current time.
 
-![](Images./Day_Planner_img4.png)
-
 - Line 46: timeSensor function is called.
+
+![](Images./Day_Planner_img4.png)
 
 ### HTML & CSS:
 
