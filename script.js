@@ -2,14 +2,14 @@
 $("#currentDay").text(moment().format('ddd MMM Do, YYYY'));
 moment().format("YYYY-MM-DD HH:mm");
 
+$("#9am .textStay").val(localStorage.getItem("9am"));
+
 //Text written in text area needs to be saved once the save button is clicked.
-$(".saveBtn").click(function(event){
-event.preventDefault();
-var savedText = $("textarea").val();
-
-
-
-
+$(".saveBtn").click(function (event) {
+    // event.preventDefault();
+    var savedText = $(this).siblings(".textStay").val();
+    var timeData = $(this).parent().attr("id");
+    localStorage.setItem(timeData, savedText);
 
 })
 
