@@ -7,6 +7,8 @@ Creation of a day planner using jQuery.  The planner should be able to save what
 
 - Lines 2-3: Hooking into Moment.js API for a clock.
 
+![](images/Day_Planner_img1
+
 - Lines 17-22: Created a click event that saves the values put into the text area into local storage.
 
 - Lines 6-14: Created get methods for the local storage.
